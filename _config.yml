@@ -14,30 +14,30 @@ issn: 2640-3498
 id: CDPD-2023
 month: 0
 cycles: false
-bibtex_editor: Thuc, Le and Jiuyong, Li and Robert, Ness and Sofia, Triantafillou
-  and Shohei, Shimizu and Peng, Cui and Kun, Kuang and Jian, Pei and Fei, Wang and
-  Mattia, Prosperi
+bibtex_editor: Le, Thuc and Li, Jiuyong and Ness, Robert and Triantafillou, Sofia
+  and Shimizu, Shohei and Cui, Peng and Kuang, Kun and Pei, Jian and Wang, Fei and
+  Prosperi, Mattia
 editor:
-- given: Le
-  family: Thuc
-- given: Li
-  family: Jiuyong
-- given: Ness
-  family: Robert
-- given: Triantafillou
-  family: Sofia
-- given: Shimizu
-  family: Shohei
-- given: Cui
-  family: Peng
-- given: Kuang
-  family: Kun
-- given: Pei
-  family: Jian
-- given: Wang
-  family: Fei
-- given: Prosperi
-  family: Mattia
+- given: Thuc
+  family: Le
+- given: Jiuyong
+  family: Li
+- given: Robert
+  family: Ness
+- given: Sofia
+  family: Triantafillou
+- given: Shohei
+  family: Shimizu
+- given: Peng
+  family: Cui
+- given: Kun
+  family: Kuang
+- given: Jian
+  family: Pei
+- given: Fei
+  family: Wang
+- given: Mattia
+  family: Prosperi
 title: Proceedings of Machine Learning Research
 description: |
   Proceedings of The KDD'23 Workshop on Causal Discovery, Prediction and Decision
@@ -46,16 +46,16 @@ description: |
   Published as Volume 218 by the Proceedings of Machine Learning Research on 25 July 2023.
 
   Volume Edited by:
-    Le Thuc
-    Li Jiuyong
-    Ness Robert
-    Triantafillou Sofia
-    Shimizu Shohei
-    Cui Peng
-    Kuang Kun
-    Pei Jian
-    Wang Fei
-    Prosperi Mattia
+    Thuc Le
+    Jiuyong Li
+    Robert Ness
+    Sofia Triantafillou
+    Shohei Shimizu
+    Peng Cui
+    Kun Kuang
+    Jian Pei
+    Fei Wang
+    Mattia Prosperi
 
   Series Editors:
     Neil D. Lawrence

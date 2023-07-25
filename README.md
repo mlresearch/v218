@@ -15,16 +15,16 @@ For details of what is required to submit a proceedings please check https://pro
 Published as Volume 218 by the Proceedings of Machine Learning Research on 25 July 2023.
 
 Volume Edited by:
-  * Le Thuc
-  * Li Jiuyong
-  * Ness Robert
-  * Triantafillou Sofia
-  * Shimizu Shohei
-  * Cui Peng
-  * Kuang Kun
-  * Pei Jian
-  * Wang Fei
-  * Prosperi Mattia
+  * Thuc Le
+  * Jiuyong Li
+  * Robert Ness
+  * Sofia Triantafillou
+  * Shohei Shimizu
+  * Peng Cui
+  * Kun Kuang
+  * Jian Pei
+  * Fei Wang
+  * Mattia Prosperi
 
 Series Editors:
   * Neil D. Lawrence
