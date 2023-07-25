@@ -1,0 +1,104 @@
+---
+booktitle: Proceedings of The KDD'23 Workshop on Causal Discovery, Prediction and
+  Decision
+shortname: CDPD2023
+volume: '218'
+year: '2023'
+start: 2023-08-07
+end: 2023-08-07
+published: 2023-07-25
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: CDPD-2023
+month: 0
+cycles: false
+bibtex_editor: Thuc, Le and Jiuyong, Li and Robert, Ness and Sofia, Triantafillou
+  and Shohei, Shimizu and Peng, Cui and Kun, Kuang and Jian, Pei and Fei, Wang and
+  Mattia, Prosperi
+editor:
+- given: Le
+  family: Thuc
+- given: Li
+  family: Jiuyong
+- given: Ness
+  family: Robert
+- given: Triantafillou
+  family: Sofia
+- given: Shimizu
+  family: Shohei
+- given: Cui
+  family: Peng
+- given: Kuang
+  family: Kun
+- given: Pei
+  family: Jian
+- given: Wang
+  family: Fei
+- given: Prosperi
+  family: Mattia
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The KDD'23 Workshop on Causal Discovery, Prediction and Decision
+    Held in Long Beach, USA on 07 August 2023
+
+  Published as Volume 218 by the Proceedings of Machine Learning Research on 25 July 2023.
+
+  Volume Edited by:
+    Le Thuc
+    Li Jiuyong
+    Ness Robert
+    Triantafillou Sofia
+    Shimizu Shohei
+    Cui Peng
+    Kuang Kun
+    Pei Jian
+    Wang Fei
+    Prosperi Mattia
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 07 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v218"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v218
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v218
+email: ''
+conference:
+  name: The KDD'23 Workshop on Causal Discovery, Prediction and Decision
+  url: http://4llab.net/workshops/CDPD2023/index.html
+  location: Long Beach, USA
+  dates:
+  - 2023-08-07
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v218/CDPD2023.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v218/CDPD2023.bib

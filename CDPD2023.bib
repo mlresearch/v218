@@ -1,0 +1,72 @@
+
+@Proceedings{CDPD-2023,
+    booktitle = {Proceedings of The KDD'23 Workshop on Causal Discovery, Prediction and Decision},
+    name = {The KDD'23 Workshop on Causal Discovery, Prediction and Decision},
+    shortname = {CDPD2023},
+    editor = {Thuc, Le and Jiuyong, Li and Robert, Ness and Sofia, Triantafillou  and Shohei, Shimizu and Peng, Cui and Kun, Kuang and Jian, Pei and Fei, Wang and Mattia, Prosperi},
+    volume = {218},
+    year = {2023},
+    start = {2023-08-07},
+    end = {2023-08-07},
+    published = {2023-07-25},
+    conference_url = {http://4llab.net/workshops/CDPD2023/index.html},
+    address = {Long Beach, USA}
+}
+
+@InProceedings{le23a,
+  title = 	 {Preface: The 2023 ACM SIGKDD Workshop on Causal Discovery, Prediction and Decision },
+  author = 	 {Thuc, Le and Jiuyong, Li and Robert, Ness and Sofia, Triantafillou  and Shohei, Shimizu and Peng, Cui and Kun, Kuang and Jian, Pei and Fei, Wang and Mattia, Prosperi},
+  pages = 	 {1--2},
+  abstract =  {Preface to the 2023 KDD Workshop on Causal Discovery, Prediction and Decision (CDPD 2023)}
+}
+
+@InProceedings{schacht23a,
+	title = 	 {Causally Learning an Optimal Rework Policy },
+	author = 	 {Oliver, Schacht and Sven, Klaassen and Philipp, Schwarz and Martin, Spindler and Daniel, Grunbaum and Sebastian, Imhof},
+	pages = 	 {3--24},
+	abstract = 	 {
+In manufacturing, rework refers to an optional step of a production process which aims to eliminate errors or remedy products that do not meet the desired quality standards. Reworking a production lot involves repeating a previous production stage with adjustments to ensure that the final product meets the required specifications. While offering the chance to improve the yield and thus increase the revenue of a production lot, a rework step also incurs additional costs. Additionally, the rework of parts that already meet the target specifications may damage them and decrease the yield. In this paper, we apply double/debiased machine learning (DML) to estimate the conditional treatment effect of a rework step during the color conversion process in optoelectronic semiconductor manufacturing on the final product yield. We utilize the implementation DoubleML to develop policies for the rework of components and estimate their value empirically. From our causal machine learning analysis we derive implications for the coating of monochromatic LEDs with conversion layers.}
+}
+
+@InProceedings{masoero23a,
+	title = 	 {Leveraging covariate adjustments at scale in online A/B testing},
+	author = 	 {Lorenzo, Masoero and Doug, Hains and James, McQueen},
+	pages = 	 {25--48},
+	abstract = 	 {Companies offering web services routinely run randomized online experiments to estimate the “causal impact” associated with the adoption of new features and policies on key performance metrics of interest. These experiments are used to estimate a variety of effects: the increase in click rate due to the repositioning of a banner, the impact on subscription rate as a consequence of a discount or special offer, etc. In these settings, even effects whose sizes are very small can have large downstream impacts. The simple difference in means estimator (Splawa-Neyman et al., 1923/1990) is still the standard estimator of choice for many online A/B testing platforms due to its simplicity. This method, however, can fail to detect small effects, even when the experiment contains thousands or millions of observational units. As a byproduct of these experiments, however, large amounts of additional data (covariates) are collected. In this paper, we discuss benefits, costs and risks of allowing experimenters to leverage more complicated estimators that make use of covariates when estimating causal effects of interest. We adapt a recently proposed general-purpose algorithm for the estimation of causal effects with covariates to the setting of online A/B testing. Through this paradigm, we implement several covariate-adjusted causal estimators. We thoroughly evaluate their performance at scale, highlighting benefits and shortcomings of different methods. We show on real experiments how “covariate- adjusted” estimators can (i) lead to more precise quantification of the causal effects of interest and (ii) fix issues related to imbalance across treatment arms — a practical concern often overlooked in the literature. In turn, (iii) these more precise estimates can reduce experimentation time, cutting cost and helping to streamline decision-making processes, allowing for faster adoption of beneficial interventions.}
+}
+
+@InProceedings{zhang23a,
+	title = 	 {Stable Prediction on Graphs with Agnostic Distribution Shifts},
+	author = 	 {Shengyu, Zhang and Yunze, Tong and Kun, Kuang and Fuli, Feng and Jiezhong, Qiu and  Jin, Yu and Zhou, Zhao and Hongxia, Yang and Zhongfei, Zhang and Fei, Wu},
+	pages = 	 {49--74},
+	abstract = 	 {Most graph neural networks (GNNs) are proposed and evaluated under independent and identically distributed (IID) training and testing data. In real-world applications, however, agnostic distribution shifts from training to testing naturally exist, leading to unstable prediction of traditional GNNs. To bridge the gap, we pursue stable prediction on graphs, i.e., to achieve high average performance and low performance variance (stability) across non-IID testing graphs. The key to stable prediction lies in capturing stable properties that are resilient to distribution shifts. In this light, we aim to identify neighbor nodes (properties) in neighborhood aggregation that are consistently important for prediction under heterogeneous distribution shifts. To achieve this target, we propose a model-agnostic stable learning framework for GNNs. The framework performs biased selection on the observed training graph, resulting in multiple non-IID graph subsets. We train one weight predictor per subset to measure the importance of properties under a particular distribution shift, and multiple predictors could tell the properties that are consistently important. An important property should contribute to high average performance and also stability (low performance variance) across non-IID subsets. In this regard, in training importance predictors, we introduce a globally stable regularizer to reduce the variance of training losses across non-IID graph datasets. Based on the importance weights of properties across non- IID subsets, a locally stable regularizer down-weights unstable properties in prediction. We conduct extensive experiments on several graph benchmarks and a noisy industrial recommendation dataset where distribution shifts exist. The results demonstrate that our method outperforms various state-of-the-art GNNs for stable prediction on graphs with agnostic distribution shifts.}
+}
+
+@InProceedings{lu23a,
+	title = 	 {Towards Optimization and Model Selection for Domain Generalization: A Mixup-guided Solution},
+	author = 	 {Wang, Lu and Jindong, Wang and Yidong, Wang and Xing, Xie },
+	pages = 	 {75--97},
+	abstract = 	 {The distribution shifts between training and test data typically undermine the performance of deep learning models. In recent years, lots of work pays attention to domain generaliza- tion (DG) where distribution shift exists and target data are unseen. Despite the progress in algorithm design, two foundational factors have long been ignored: 1) the optimization for regularization-based objectives (e.g., distribution alignment), and 2) the model selection for DG since no knowledge about the target domain can be utilized. In this paper, we pro- pose Mixup guided optimization and selection techniques for domain generalization. For optimization, we utilize an adapted Mixup to generate an out-of-distribution dataset that can guide the preference direction and optimize with Pareto optimization. For model selec- tion, we generate a validation dataset with a closer distance to the target distribution, and thereby it can better represent the target data. We also present some theoretical insights behind our proposals. Comprehensive experiments on one visual classification benchmark and three time-series benchmarks demonstrate that our model optimization and selection techniques can largely improve the performance of existing domain generalization algo- rithms and even achieve new state-of-the-art results.}
+}
+
+
+@InProceedings{jun23a,
+	title = 	 {Optimizing Dynamic Antibiotic Treatment Strategies against Invasive Methicillin-Resistant Staphylococcus Aureus Infections using Causal Survival Forests and G-Formula on Statewide Electronic Health Record Data},
+	author = 	 {Inyoung, Jun and Scott A., Cohen and Sarah E., Ser and Simone, Marini and Robert J., Lucero and Jiang, Bian and Mattia, Prosperi},
+	pages = 	 {98--115},
+	abstract = 	 {Developing models for individualized, time-varying treatment optimization from observational data with large variable spaces, e.g., electronic health records (EHR), is problematic because of inherent, complex bias that can change over time. Traditional methods such as the g-formula are robust, but must identify critical subsets of variables due to combinatorial issues. Machine learning approaches such as causal survival forests have fewer constraints and can provide fine-tuned, individualized counterfactual predictions. In this study, we aimed to optimize time-varying antibiotic treatment –identifying treatment heterogeneity and conditional treatment effects– against invasive methicillin-resistant Staphylococcus Aureus (MRSA) infections, using statewide EHR data collected in Florida, USA. While many previous studies focused on measuring the effects of the first empiric treatment (i.e., usually vancomycin), our study focuses on dynamic sequential treatment changes, comparing possible vancomycin switches with other antibiotics at clinically relevant time points, e.g., after obtaining a bacterial culture and susceptibility testing. Our study population included adult individuals admitted to the hospital with invasive MRSA. We collected demographic, clinical, medication, and laboratory information from the EHR for these patients. Then, we followed three sequential antibiotic choices (i.e., their empiric treatment, subsequent directed treatment, and final sustaining treatment), evaluating 30-day mortality as the outcome. We applied both causal survival forests and g-formula using different clinical intervention policies. We found that switching from vancomycin to another antibiotic im- proved survival probability, yet there was a benefit from initiating vancomycin compared to not using it at any time point. These findings show consistency with the empiric choice of vancomycin before confirmation of MRSA and shed light on how to manage switches on course. In conclusion, this application of causal machine learning on EHR demonstrates utility in modeling dynamic, heterogeneous treatment effects that cannot be evaluated precisely using randomized clinical trials.}
+}
+
+
+@InProceedings{xiong23a,
+	title = 	 {Bias-Variance Tradeoffs for Designing Simultaneous Temporal Experiments},
+	author = 	 {Ruoxuan, Xiong and Alex, Chin and  Sean, Taylor},
+	pages = 	 {115--131},
+	abstract = 	 {We study the analysis and design of simultaneous temporal experiments, where a set of interventions are applied concurrently in continuous time, and outcomes are measured on a sequence of events observed in time. As a motivating setting, suppose multiple data science teams are conducting experiments simultaneously and independently on a ride- hailing platform to test changes to marketplace algorithms such as pricing and matching, and estimating effects from observed event outcomes such as the rate at which ride requests are completed. The design problem involves partitioning a continuous space of time into intervals and assigning treatments at the interval level. Design and analysis must account for three factors: carryover effects from interventions at earlier times, correlation in event outcomes, and effects of interventions tested simultaneously. We provide simulations to build intuition and guidance for practitioners.}
+}
+
+
+
+
+
+
